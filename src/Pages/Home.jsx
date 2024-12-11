@@ -1,11 +1,13 @@
+import Cards from "../components/Cards";
 import HeroSec from "../components/HeroSec";
-import Navigation from "./../components/Navigation-Bar";
+import Services from "../components/Services";
 
 const Home = () => {
   return (
     <>
-      <Navigation />
       <HeroSec />
+      <Services />
+      <Cards />
     </>
   );
 };

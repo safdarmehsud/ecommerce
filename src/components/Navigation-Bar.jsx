@@ -15,16 +15,14 @@ const Navigation = () => {
         <div className="nav-menu-items">
           <ul className="flex mt-2">
             <li className="p-3 text-lg font-semibold  cursor-pointer ">Home</li>
-            <li className="p-3 text-lg font-semibold hover:border-b-[3px]  hover:border-orange-500 transition-all duration-150 cursor-pointer">
+            <li className="p-3 text-lg font-semibold  cursor-pointer">
               About Us
             </li>
-            <li className="p-3 text-lg font-semibold hover:border-b-[3px]  hover:border-orange-500 transition-all duration-150 cursor-pointer">
-              Blog
+            <li className="p-3 text-lg font-semibold  cursor-pointer">Blog</li>
+            <li className="p-3 text-lg font-semibold  cursor-pointer">
+              Products
             </li>
-            <li className="p-3 text-lg font-semibold hover:border-b-[3px]  hover:border-orange-500 transition-all duration-150 cursor-pointer">
-              Pages
-            </li>
-            <li className="p-3 text-lg font-semibold hover:border-b-[3px]  hover:border-orange-500 transition-all duration-150 cursor-pointer">
+            <li className="p-3 text-lg font-semibold  cursor-pointer">
               Contact Us
             </li>
           </ul>
@@ -37,6 +35,14 @@ const Navigation = () => {
               className=" border-none outline-orange-400 outline-4 h-8 w-[100%] shadow-lg  rounded-md placeholder:pl-2 p-5 "
             />
           </form>
+        </div>
+        <div className="nav-signup-signout-div flex p-2">
+          <button className="h-[40px] w-[80px] bg-orange-600 rounded-lg font-semibold hover:text-white hover:bg-black duration-300">
+            SignIn
+          </button>
+          <button className="h-[40px] w-[80px] bg-orange-600 ml-1 rounded-lg font-semibold hover:text-white hover:bg-black duration-300">
+            SignUp
+          </button>
         </div>
       </div>
     </>

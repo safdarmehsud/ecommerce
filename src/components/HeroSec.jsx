@@ -28,7 +28,7 @@ const HeroSec = () => {
   };
 
   return (
-    <div className="main-hero h-screen w-full bg-orange-400 relative">
+    <div className="main-hero h-[91vh] w-full bg-orange-400 relative">
       {/* Hero Left Section */}
       <div className="hero-left w-full md:w-[50%] absolute top-[25%] left-[5%] text-center md:text-left">
         <h1 className="text-4xl md:text-[120px] font-bold p-5">Welcome To</h1>
