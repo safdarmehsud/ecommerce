@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
-import Picture1 from "../assets/images/Shopbag1.png";
-import Picture2 from "../assets/images/shopbag2.png";
-import Picture3 from "../assets/images/shopbag3.png";
-import Picture4 from "../assets/images/shopbag4.png";
 
 const HeroSec = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const images = [Picture1, Picture2, Picture3, Picture4];
+  const images = [
+    "/Shopbag1.png",
+    "/shopbag2.png",
+    "/shopbag3.png",
+    "/shopbag4.png",
+  ];
 
   const nextSlide = () => {
     setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);

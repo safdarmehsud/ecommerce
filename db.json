@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "/product1.jpg",
+      "name": "Product 1",
+      "description": "This is the first product.",
+      "price": 29.99
+    },
+    {
+      "id": 2,
+      "image": "/product2.jpg",
+      "name": "Product 2",
+      "description": "This is the second product.",
+      "price": 39.99
+    },
+    {
+      "id": 3,
+      "image": "./product3.jpg",
+      "name": "Product 3",
+      "description": "This is the third product.",
+      "price": 49.99
+    },
+    {
+      "id": 4,
+      "image": "./product4.png",
+      "name": "Product 3",
+      "description": "This is the third product.",
+      "price": 49.99
+    },
+    {
+      "id": 5,
+      "image": "./product5.jpg",
+      "name": "Product 3",
+      "description": "This is the third product.",
+      "price": 49.99
+    },
+    {
+      "id": 6,
+      "image": "./product6.jpg",
+      "name": "Product 3",
+      "description": "This is the third product.",
+      "price": 49.99
+    },
+    {
+      "id": 7,
+      "image": "./product7.jpg",
+      "name": "Product 3",
+      "description": "This is the third product.",
+      "price": 49.99
+    },
+    {
+      "id": 8,
+      "image": "./product8.jpg",
+      "name": "Product 3",
+      "description": "This is the third product.",
+      "price": 49.99
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Jane Doe",
+      "image": "image",
+      "rating": 5,
+      "review": "The product quality is amazing! Delivery was super quick and the service was excellent. Highly recommend!"
+    },
+    {
+      "name": "John Smith",
+      "image": "image",
+      "rating": 4,
+      "review": "Great selection and very competitive prices. Will definitely shop again!"
+    }
+  ]
+}
